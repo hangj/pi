@@ -1,0 +1,4 @@
+# https://github.com/cross-rs/cross/blob/main/docs/cross_toml.md
+
+[build]
+default-target = "arm-unknown-linux-gnueabihf"

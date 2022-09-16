@@ -9,10 +9,3 @@ edition = "2021"
 
 
 
-# 不配置这个就需要 cross build --target arm-unknown-linux-gnueabihf
-# 配置之后 cross build 就好
-[build]
-xargo = true
-build-std = true
-default-target = "arm-unknown-linux-gnueabihf"
-# pre-build = ["apt-get update"] # can also be the path to a file to run
